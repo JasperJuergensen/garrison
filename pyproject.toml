@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "garrison"
+version = "0.1.0"
+description = "Watchtower for backups"
+authors = ["Jasper Jürgensen <jasper.juergensen@proton.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+docker = "^7.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
